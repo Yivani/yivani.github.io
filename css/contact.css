@@ -738,7 +738,6 @@ body {
 
 
 
-
 .link-container {
   color: #3763f4;
   text-decoration: none;
@@ -759,6 +758,7 @@ body {
 .impressum h1 {
   color: #3763f4;
 }
+
 
 footer {
   background-color: var(--color2);
