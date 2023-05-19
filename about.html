@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About - Yivani</title>
+    <link rel="icon" type="image/png" href="image/Logo.png">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+    <script src="https://kit.fontawesome.com/29ef157e4f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+    <nav>
+        <ul class='nav-bar'>
+            <li class='logo'><a href='index.html'><img src='image/Logo.png'/></a>
+              <h1 class="title">YIVANI</h1>
+            </li>
+            <input type='checkbox' id='check' />
+            <span class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="others.html">Others</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <button class="menu-btn" onclick=" window.open('https://discord.gg/UM5CqcFmZb','_blank')"> Discord</button>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
+    </nav>
+    </header>
+
+    <div>
+      <h1 class="Title-Home">About me!</h1>
+    </div>
+
+
+
+    <div class="about">
+      <p>Hello, my name is Domenic, I am 20 years old from Germany, my hobbies are photography, programming and I like to work with Photoshop. I have been working with Photoshop for about 6 years, not actively every day, but I know this program very well. I started to work with programming in the beginning of 2020, after I worked with it, I attended a media technology school and graduated with a middle school diploma, there I could also continue to deal with programming and learn it further and until today I always work with it. I have been taking pictures all my life. I am simply fascinated by the end product, what you get out of the camera and the love, which is in the pictures, is sometimes simply amazing. I attended many schools in my life and had to move many times but it didn't stop me from making something out of my life despite pure misfortune in my whole life until today I have difficulties to find my way in my life but I won't give up because of one little thing, the most important thing is to always look forward.
+      <br>
+      <br>
+      if you want to know more ask me or something and maybe you'll get an answer it's not a special "about me" page like others with fancy pictures and moving stuff but it's decent and enough for a personal website
+     </p>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h1>My Skills</h1>
+
+    <p>CSS</p>
+    <div class="container">
+      <div class="skills css" style="font-weight: 500;">40%</div>
+    </div>
+    
+    <p>HTML</p>
+    <div class="container">
+      <div class="skills html" style="font-weight: 500;">50%</div>
+    </div>
+    
+    <p>Photoshop</p>
+    <div class="container">
+      <div class="skills photoshop" style="font-weight: 500;">85%</div>
+    </div>
+    
+    <p>Photography</p>
+    <div class="container">
+      <div class="skills photography" style="font-weight: 500;">100%</div>
+    </div>
+
+
+<!-- Loading Page -->
+<div id="loading-page">
+  <div class="spinner"></div>
+</div>
+
+<script>
+  function loadGallery() {
+    document.getElementById('loading-page').style.display = 'none';
+    document.getElementsByClassName('row').style.display = 'block';
+  }
+
+  window.onload = function() {
+    loadGallery();
+  };
+</script>
+<!-- Loading Page -->
+
+<section>
+  <footer>
+   <hr>
+     <p>&copy; 2023, <a class="link-container" href="impressum.html">Yivani</a> All rights reserved.</p>
+  </footer>
+</section>
+   
+
+
+  </body>
+</html>

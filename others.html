@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Others - Yivani</title>
+    <link rel="icon" type="image/png" href="image/Logo.png">
+    <link rel="stylesheet" href="css/others.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+    <script src="https://kit.fontawesome.com/29ef157e4f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+    <nav>
+        <ul class='nav-bar'>
+            <li class='logo'><a href='index.html'><img src='image/Logo.png'/></a>
+              <h1 class="title">YIVANI</h1>
+            </li>
+            <input type='checkbox' id='check' />
+            <span class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="others.html">Others</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <button class="menu-btn" onclick=" window.open('https://discord.gg/UM5CqcFmZb','_blank')"> Discord</button>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
+    </nav>
+    </header>
+
+    <div>
+      <h1 class="Title-Home">Spotify Playlist!</h1>
+      <p class="des-home">Here is my personal playlist of all my songs, the pictures are ai genereated and redited by myself.</p>
+    </div>
+
+
+    <div class="FGTBT">
+      <img src="image/Spotify logo.png">
+      <p class="FGTBT-p">Here is a Spotify playlist for good time and bad times. the playlist consists of the genres Indie Rock, Dream Pop, Bedroom Pop, Alternative Rock, Electronic Music, Pop, Singer-Songwriter, Folk, R&B, Hip-Hop, Dance/Electronic and Ambient <br> <br> You can find the playlist on Spotify and YouTube</p>
+
+      <button class="FGTBT-btn" onclick=" window.open('https://open.spotify.com/playlist/0e1tQz5F73fje9XxXHUsqz?si=e997da951fb749b8','_blank')"> Spotify</button>
+      <button class="FGTBT-btn2" onclick=" window.open('https://youtube.com/playlist?list=PL0R3AzWbHS7iITR2mt3NBqnpTSfIDkcTh','_blank')"> YouTube</button>
+    </div>
+
+    <div class="OBG">
+      <img src="image/Old But Gold Logo.png">
+      <p class="OBG-p">Here is a Spotify playlist for the old times of the 1800s and 1900s. the playlist consists of the genres Indie Rock, Alternative Rock, Rock and more <br> <br>You can find the playlist on Spotify and YouTube</p>
+
+      <button class="OBG-btn" onclick=" window.open('https://open.spotify.com/playlist/50ofswhctI1cU9TaIijOYT?si=9d0ec54b4ddd4728','_blank')"> Spotify</button>
+      <button class="OBG-btn2" onclick=" window.open('https://youtube.com/playlist?list=PL0R3AzWbHS7hf8KTbPEsysp1hR47_kFoW','_blank')"> YouTube</button>
+    </div>
+
+    <div class="DRF">
+      <img src="image/DRF Logo.png">
+      <p class="DRF-p">Here is a Spotify playlist for all the popular german rappers the playlist consists of the genres Rap, Alternative Rap, Hip-Hop and more <br> <br>You will find the playlist only on Spotify </p>
+
+      <button class="DRF-btn" onclick=" window.open('https://open.spotify.com/playlist/4ha98St8lyWbasyg0lnN8j?si=372f78767d0e4a1d','_blank')"> Spotify</button>
+    </div>
+
+    <div class="RAC">
+      <img src="image/RAP Logo.png">
+      <p class="RAC-p">Here is a Spotify playlist for all the popular rappers the playlist consists of the genres Rap, Alternative Rap, Hip-Hop and more <br> <br>You will find the playlist only on Spotify </p>
+
+      <button class="RAC-btn" onclick=" window.open('https://open.spotify.com/playlist/1sHKTf9JOURJPGw0UCXlyN?si=6aa80204a63d41fb','_blank')"> Spotify</button>
+    </div>
+
+    <div class="IVOX">
+      <img src="image/Ivox Logo.png">
+      <p class="IVOX-p">Here is a Spotify Playlist from the artist IVOXYGEN the Playlist is made up of the artist IVOXYGEN himself and no one else who made songs with him. <br> <br>You will find the playlist only on Spotify </p>
+
+      <button class="IVOX-btn" onclick=" window.open('https://open.spotify.com/playlist/3j7BQsRQoHrAxWETSkydNc?si=7a5a643644a2411d','_blank')"> Spotify</button>
+    </div>
+
+    <div class="ICFT">
+      <img src="image/ICFT Logo.png">
+      <p class="ICFT-p">Here is a Spotify playlist of all my favorite songs from the genre hardstyle and more <br> <br>You will find the playlist only on Spotify </p>
+
+      <button class="ICFT-btn" onclick=" window.open('https://open.spotify.com/playlist/74V7weiZnUdB07TAv1l58r?si=4f6b3526891e4841','_blank')"> Spotify</button>
+    </div>
+
+    <div class="HAK">
+      <img src="image/HAK Logo.png">
+      <p class="HAK-p">Here is a Spotify playlist of all kind songs from the genre hardstyle, rawstyle, hardtekk and more <br> <br>You will find the playlist only on Spotify </p>
+
+      <button class="HAK-btn" onclick=" window.open('https://open.spotify.com/playlist/2uow7vk6v88DjyosTY1fD9?si=a75a1d35c34e492c','_blank')"> Spotify</button>
+    </div>
+
+
+
+<!-- Loading Page -->
+<div id="loading-page">
+  <div class="spinner"></div>
+</div>
+
+<script>
+  function loadGallery() {
+    document.getElementById('loading-page').style.display = 'none';
+    document.getElementsByClassName('row').style.display = 'block';
+  }
+
+  window.onload = function() {
+    loadGallery();
+  };
+</script>
+<!-- Loading Page -->
+
+    <section>
+         <footer>
+          <hr>
+            <p>&copy; 2023, <a class="link-container" href="impressum.html">Yivani</a> All rights reserved.</p>
+         </footer>
+   </section>
+
+
+  </body>
+</html>
